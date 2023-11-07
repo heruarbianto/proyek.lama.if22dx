@@ -19,3 +19,46 @@
     --h2-font: 3rem;
     --p-font: 1rem;
 }
+
+body{
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: yellowgreen;
+  padding: 27px 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all .5s ease;
+  max-height: 65px;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav a{
+  color: var(--text-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  margin: 15px 22px;
+  transition: all .5s ease;
+}
+
+.nav a:hover{
+  color: var(--main-color);
+}
+.nav .isi-dropdown{
+  display: none; 
+}
+
+.nav li:hover .isi-dropdown{
+  display: block;
+  position: absolute;
+}
