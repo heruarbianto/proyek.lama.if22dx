@@ -56,6 +56,7 @@ header{
   color: var(--main-color);
 }
 
+/* Sementara */
 .nav .isi-dropdown a{
   white-space: normal;
   margin: 15px 0;
