@@ -46,6 +46,7 @@ header{
 .nav a{
   color: var(--text-color);
   font-size: var(--p-font);
+  white-space: nowrap;
   font-weight: 500;
   margin: 15px 22px;
   transition: all .5s ease;
@@ -54,11 +55,18 @@ header{
 .nav a:hover{
   color: var(--main-color);
 }
+
+.nav .isi-dropdown a{
+  white-space: normal;
+  margin: 15px 0;
+}
 .nav .isi-dropdown{
-  display: none; 
+  display: none;
+  margin: 0;
+  position: absolute;
+  background: yellowgreen;
 }
 
 .nav li:hover .isi-dropdown{
   display: block;
-  position: absolute;
 }
