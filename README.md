@@ -1,1 +1,0 @@
-# TA-DW-22DX-MMC
